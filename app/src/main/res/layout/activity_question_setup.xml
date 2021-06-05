@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82E0AA">
+
+    <include layout="@layout/toolbarc"
+        android:id="@+id/toolbarqs"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/toolbarqs"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/QuestionSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Set Question"
+        android:textColor="#000000"
+        android:textSize="32sp"/>
+
+    <EditText
+        android:id="@+id/testnameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="12"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="Test Name"
+        android:textColorHint="#46000000"/>
+
+    <EditText
+        android:id="@+id/noofquestionEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="12"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="Number Of Question"
+        android:textColorHint="#46000000"/>
+
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="12"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:hint="Date"
+        android:textColorHint="#46000000"/>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="               100 Questions NEXT               "
+            android:textColor="#ffff"
+            android:background="@drawable/backgroung_button"/>
+
+        <Button
+            android:id="@+id/buttonNext45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="               45 Questions NEXT               "
+            android:textColor="#ffff"
+            android:background="@drawable/backgroung_button"/>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#82E0AA">
+
+
+    <include
+        android:id="@+id/toolbarsetupexam"
+        layout="@layout/toolbarc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbarsetupexam"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarsetupexam"
+        android:layout_marginTop="20dp"
+        android:ems="12"
+        android:gravity="center"
+        android:hint="File Name"></EditText>
+
+    <Button
+        android:id="@+id/buttonUploadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textColor="#ffff"
+        android:layout_below="@id/editTextFileName"
+        android:background="@drawable/backgroung_button"
+        android:text="              Upload PDF              " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:ems="12"
+        android:textAlignment="center"
+        android:layout_below="@id/buttonUploadFile"
+        android:layout_marginTop="80dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+
+    <Button
+        android:id="@+id/nextpage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="              Next              "
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textViewUploads"
+        android:background="@drawable/backgroung_button"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/textViewUploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_marginTop="40dp"
+        android:text="              View Uploads              "
+        android:background="@drawable/backgroung_button"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ffff" />
+    </LinearLayout>
+</RelativeLayout>

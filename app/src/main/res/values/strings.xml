@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SSG Admin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    //////////////Add these lines only
+
+    <string name="sandeep"><a href="http://www.linkedin.com/in/sandeepmanna">Linkedin</a></string>
+    <string name="sudeep"><a href="http://www.linkedin.com/in/sudeepkumarsahoo">Linkedin</a></string>
+</resources>

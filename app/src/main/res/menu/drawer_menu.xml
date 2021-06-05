@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+<!--        <item android:id="@+id/edit_student"-->
+<!--            android:title="Edit Student Details" />-->
+        <item android:id="@+id/setup_exam"
+            android:title="Setup Exam"/>
+        <item android:id="@+id/first_year_rank_list"
+            android:title="First Year Rank List"/>
+        <item android:id="@+id/second_year_rank_list"
+            android:title="Second Year Rank List"/>
+
+        <item android:id="@+id/rank_list_45_question"
+            android:title="RankList 45 Question"/>
+
+        <item android:id="@+id/rank_list_45_question_negative"
+            android:title="RankList 45 Question(-ve Marking)"/>
+
+        <item android:id="@+id/start_stop_exam"
+            android:title="Start/Stop Exam"/>
+        <item android:id="@+id/clean_database"
+            android:title="Clear Exam Data"/>
+        <item android:id="@+id/developer_contact"
+            android:title="Developer Contact"/>
+        <item android:id="@+id/logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

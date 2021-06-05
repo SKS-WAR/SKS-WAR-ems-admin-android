@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sksm.ssg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icoon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RankList_45_question"></activity>
+        <activity android:name=".RankList_45_question_negative"></activity>
+        <activity android:name=".Answer45questions" />
+        <activity android:name=".first_year_rank_list" />
+        <activity
+            android:name=".Edit_Delete_Student"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".developer_contact"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Answer"
+            android:parentActivityName=".QuestionSetup" />
+        <activity
+            android:name=".QuestionSetup"
+            android:parentActivityName=".SetupExam" />
+        <activity
+            android:name=".Pdf"
+            android:parentActivityName=".SetupExam" />
+        <activity
+            android:name=".RankList"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Start_Stop"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".SetupExam"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".StudentRegister"
+            android:parentActivityName=".Login" />
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

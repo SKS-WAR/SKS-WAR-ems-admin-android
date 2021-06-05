@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14551555663",
+    "firebase_url": "https://ssg-ce68d.firebaseio.com",
+    "project_id": "ssssssgggggg",
+    "storage_bucket": "sssssssgggggce68dppspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936769646565423663:android:6ee8ecd38cca47d6daf9da",
+        "android_client_info": {
+          "package_name": "com.sksm.ssg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93675656669423663-4rkll4ibbtjrm1j864n9oqljc4cg2n8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyhahvbshfhauagfqoAlBmq2546k3T0ou7m27JY_2s1-1ULkxmNIjUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9367694665454523663-4rkll4ibbtjrm1j864n9oqljc4cg2n8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
